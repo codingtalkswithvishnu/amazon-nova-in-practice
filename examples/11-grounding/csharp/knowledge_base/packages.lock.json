@@ -11,6 +11,33 @@
           "AWSSDK.Core": "[4.1.1.1, 5.0.0)"
         }
       },
+      "AWSSDK.Signin": {
+        "type": "Direct",
+        "requested": "[4.1.0.2, )",
+        "resolved": "4.1.0.2",
+        "contentHash": "VDTcNZcVjftfjZNI3aS/BckLMmYJWqVXOVapJv2SWDHwmzXhrris1LfUJbpDY4ScImIRq0f0Hblf/uZ0wozgAw==",
+        "dependencies": {
+          "AWSSDK.Core": "[4.1.1.1, 5.0.0)"
+        }
+      },
+      "AWSSDK.SSO": {
+        "type": "Direct",
+        "requested": "[4.1.0.2, )",
+        "resolved": "4.1.0.2",
+        "contentHash": "6z8741KdT9/pFj3XKVXK6sy/mrJBzNRlrcsKc9X6SX7q68ERIM/KG7bpe3EOxf1Ky0qmWarTUgF8RGO48gB1bQ==",
+        "dependencies": {
+          "AWSSDK.Core": "[4.1.1.1, 5.0.0)"
+        }
+      },
+      "AWSSDK.SSOOIDC": {
+        "type": "Direct",
+        "requested": "[4.1.0.2, )",
+        "resolved": "4.1.0.2",
+        "contentHash": "qdaba5cvdE6y7UYMH0zRsQMTNynvPmxme2QCIEHxWv5FAFY43TIvYDyZIdeJQOuzCyfNKqlRWTRmFrzSky5ALQ==",
+        "dependencies": {
+          "AWSSDK.Core": "[4.1.1.1, 5.0.0)"
+        }
+      },
       "AWSSDK.Core": {
         "type": "Transitive",
         "resolved": "4.1.1.1",

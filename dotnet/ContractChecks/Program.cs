@@ -42,4 +42,7 @@ using var truncated = JsonDocument.Parse("""
 {"stopReason":"max_tokens","output":{"message":{"content":[{"text":"Partial"}]}}}
 """);
 Reject(() => ReadNativeText(truncated.RootElement));
+Check(typeof(Amazon.Signin.AmazonSigninClient).Assembly.GetName().Name == "AWSSDK.Signin");
+Check(typeof(Amazon.SSO.AmazonSSOClient).Assembly.GetName().Name == "AWSSDK.SSO");
+Check(typeof(Amazon.SSOOIDC.AmazonSSOOIDCClient).Assembly.GetName().Name == "AWSSDK.SSOOIDC");
 Console.WriteLine($"{checks} C# contract checks passed; no AWS calls.");

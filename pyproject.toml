@@ -7,7 +7,7 @@ name = "nova-book-examples"
 version = "0.1.0"
 description = "Companion examples for Amazon Nova: Frontier Intelligence by Vishnu VG"
 requires-python = ">=3.12"
-dependencies = ["boto3==1.44.5", "jsonschema==4.26.0"]
+dependencies = ["boto3[crt]==1.44.5", "jsonschema==4.26.0"]
 
 [project.optional-dependencies]
 dev = ["ruff==0.17.5", "pip-audit==2.10.1"]

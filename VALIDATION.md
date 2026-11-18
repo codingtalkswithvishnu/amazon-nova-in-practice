@@ -4,7 +4,7 @@ Reviewed: 18 November 2026.
 
 Executed locally with Python 3.12.16 and .NET SDK 11.0.100 / runtime 11.0.0:
 21 Python tests passed, 14 net11.0 C# projects built without warnings/errors,
-and 11 C# contract checks passed. NuGet checks reported no deprecated, known
+and 14 C# contract checks passed. NuGet checks reported no deprecated, known
 vulnerable or outdated direct/transitive packages in the two complete dependency
 sets shared by the 14 projects. Python's locked dependency audit reported no known
 vulnerabilities. These statements describe that check date, not future releases.

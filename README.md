@@ -54,8 +54,13 @@ restores and builds every supplied C# project using committed package locks.
 
 ## Your first metered request
 
-Install the AWS CLI and sign in using your organisation's short-lived credential
-method. For IAM Identity Center, use `aws sso login --profile your-learning-profile`.
+Install a current AWS CLI v2. For a supported console/project sign-in, use
+`aws login --profile your-learning-profile --region YOUR_PROJECT_REGION` and
+complete the browser flow. For an organisation IAM Identity Center profile, use
+`aws sso login --profile your-learning-profile` instead. The supplied dependencies
+include Python CRT and the .NET Signin/SSO/SSOOIDC packages required by these
+credential providers. See [SDK login support](https://docs.aws.amazon.com/sdkref/latest/guide/feature-login-credentials.html)
+and [.NET authentication prerequisites](https://docs.aws.amazon.com/sdk-for-net/v4/developer-guide/creds-idc.html).
 Set AWS_PROFILE to that profile, AWS_REGION to a supported Region and NOVA_MODEL_ID
 to an approved model/profile ID. The default teaching route is
 `us.amazon.nova-lite-v1:0` in `us-east-1`; cross-region routing may process a request

@@ -8,4 +8,9 @@
     <PackageReference Include="AWSSDK.BedrockRuntime" Version="4.1.0.2" />
     <Compile Include="../Support.cs" Link="Support.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Signin" Version="4.1.0.2" />
+    <PackageReference Include="AWSSDK.SSO" Version="4.1.0.2" />
+    <PackageReference Include="AWSSDK.SSOOIDC" Version="4.1.0.2" />
+  </ItemGroup>
 </Project>
