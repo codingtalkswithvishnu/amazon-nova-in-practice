@@ -1,0 +1,250 @@
+[
+  {
+    "chapter": 1,
+    "source": "nova_part_1_chapters.md",
+    "section": "Bedrock is more than a doorway to models",
+    "language": "python",
+    "name": "framework",
+    "path": "examples/01-landscape/python/framework.py"
+  },
+  {
+    "chapter": 3,
+    "source": "nova_part_1_chapters.md",
+    "section": "Your first call",
+    "language": "python",
+    "name": "first_call",
+    "path": "examples/03-first-call/python/first_call.py"
+  },
+  {
+    "chapter": 3,
+    "source": "nova_part_1_chapters.md",
+    "section": "Your first call",
+    "language": "csharp",
+    "name": "first_call",
+    "path": "examples/03-first-call/csharp/first_call/Program.cs"
+  },
+  {
+    "chapter": 3,
+    "source": "nova_part_1_chapters.md",
+    "section": "A first feel for cost",
+    "language": "python",
+    "name": "usage",
+    "path": "examples/03-first-call/python/usage.py"
+  },
+  {
+    "chapter": 3,
+    "source": "nova_part_1_chapters.md",
+    "section": "A first feel for cost",
+    "language": "csharp",
+    "name": "usage",
+    "path": "examples/03-first-call/csharp/usage/Program.cs"
+  },
+  {
+    "chapter": 4,
+    "source": "nova_part_1_chapters.md",
+    "section": "The Converse API: one shape for everything",
+    "language": "python",
+    "name": "conversation",
+    "path": "examples/04-converse-invoke/python/conversation.py"
+  },
+  {
+    "chapter": 4,
+    "source": "nova_part_1_chapters.md",
+    "section": "The Converse API: one shape for everything",
+    "language": "csharp",
+    "name": "conversation",
+    "path": "examples/04-converse-invoke/csharp/conversation/Program.cs"
+  },
+  {
+    "chapter": 4,
+    "source": "nova_part_1_chapters.md",
+    "section": "Streaming: making it feel fast",
+    "language": "python",
+    "name": "streaming",
+    "path": "examples/04-converse-invoke/python/streaming.py"
+  },
+  {
+    "chapter": 4,
+    "source": "nova_part_1_chapters.md",
+    "section": "Streaming: making it feel fast",
+    "language": "csharp",
+    "name": "streaming",
+    "path": "examples/04-converse-invoke/csharp/streaming/Program.cs"
+  },
+  {
+    "chapter": 4,
+    "source": "nova_part_1_chapters.md",
+    "section": "The InvokeModel API: the lower-level door",
+    "language": "python",
+    "name": "native",
+    "path": "examples/04-converse-invoke/python/native.py"
+  },
+  {
+    "chapter": 4,
+    "source": "nova_part_1_chapters.md",
+    "section": "The InvokeModel API: the lower-level door",
+    "language": "csharp",
+    "name": "native",
+    "path": "examples/04-converse-invoke/csharp/native/Program.cs"
+  },
+  {
+    "chapter": 5,
+    "source": "nova_part_2_chapters.md",
+    "section": "The anatomy of a dependable prompt",
+    "language": "python",
+    "name": "prompt_extraction",
+    "path": "examples/05-structured-output/python/prompt_extraction.py"
+  },
+  {
+    "chapter": 5,
+    "source": "nova_part_2_chapters.md",
+    "section": "The anatomy of a dependable prompt",
+    "language": "csharp",
+    "name": "prompt_extraction",
+    "path": "examples/05-structured-output/csharp/prompt_extraction/Program.cs"
+  },
+  {
+    "chapter": 5,
+    "source": "nova_part_2_chapters.md",
+    "section": "Showing, not just telling: examples in the prompt",
+    "language": "text",
+    "name": "few_shot_prompt",
+    "path": "examples/05-structured-output/few_shot_prompt.txt"
+  },
+  {
+    "chapter": 5,
+    "source": "nova_part_2_chapters.md",
+    "section": "Making output machine-readable, reliably",
+    "language": "python",
+    "name": "structured_extraction",
+    "path": "examples/05-structured-output/python/structured_extraction.py"
+  },
+  {
+    "chapter": 5,
+    "source": "nova_part_2_chapters.md",
+    "section": "Making output machine-readable, reliably",
+    "language": "csharp",
+    "name": "structured_extraction",
+    "path": "examples/05-structured-output/csharp/structured_extraction/Program.cs"
+  },
+  {
+    "chapter": 6,
+    "source": "nova_part_2_chapters.md",
+    "section": "Tool use: letting the model reach beyond itself",
+    "language": "python",
+    "name": "appointments",
+    "path": "examples/06-reasoning-tools/python/appointments.py"
+  },
+  {
+    "chapter": 6,
+    "source": "nova_part_2_chapters.md",
+    "section": "Tool use: letting the model reach beyond itself",
+    "language": "csharp",
+    "name": "appointments",
+    "path": "examples/06-reasoning-tools/csharp/appointments/Program.cs"
+  },
+  {
+    "chapter": 7,
+    "source": "nova_part_2_chapters.md",
+    "section": "Reading documents",
+    "language": "python",
+    "name": "document",
+    "path": "examples/07-multimodal/python/document.py"
+  },
+  {
+    "chapter": 7,
+    "source": "nova_part_2_chapters.md",
+    "section": "Reading documents",
+    "language": "csharp",
+    "name": "document",
+    "path": "examples/07-multimodal/csharp/document/Program.cs"
+  },
+  {
+    "chapter": 7,
+    "source": "nova_part_2_chapters.md",
+    "section": "Reading images",
+    "language": "python",
+    "name": "image",
+    "path": "examples/07-multimodal/python/image.py"
+  },
+  {
+    "chapter": 7,
+    "source": "nova_part_2_chapters.md",
+    "section": "Reading images",
+    "language": "csharp",
+    "name": "image",
+    "path": "examples/07-multimodal/csharp/image/Program.cs"
+  },
+  {
+    "chapter": 8,
+    "source": "nova_part_3_chapters.md",
+    "section": "How Canvas is called: back to native bodies",
+    "language": "python",
+    "name": "generate_image",
+    "path": "examples/08-canvas-historical/python/generate_image.py"
+  },
+  {
+    "chapter": 8,
+    "source": "nova_part_3_chapters.md",
+    "section": "How Canvas is called: back to native bodies",
+    "language": "csharp",
+    "name": "generate_image",
+    "path": "examples/08-canvas-historical/csharp/generate_image/Program.cs"
+  },
+  {
+    "chapter": 8,
+    "source": "nova_part_3_chapters.md",
+    "section": "Beyond text-to-image: the editing suite",
+    "language": "python",
+    "name": "remove_background",
+    "path": "examples/08-canvas-historical/python/remove_background.py"
+  },
+  {
+    "chapter": 9,
+    "source": "nova_part_3_chapters.md",
+    "section": "Starting a job and collecting the result",
+    "language": "python",
+    "name": "video_job",
+    "path": "examples/09-reel-historical/python/video_job.py"
+  },
+  {
+    "chapter": 9,
+    "source": "nova_part_3_chapters.md",
+    "section": "Starting a job and collecting the result",
+    "language": "csharp",
+    "name": "video_job",
+    "path": "examples/09-reel-historical/csharp/video_job/Program.cs"
+  },
+  {
+    "chapter": 11,
+    "source": "nova_part_4_chapters.md",
+    "section": "The managed shortcut: Bedrock Knowledge Bases",
+    "language": "python",
+    "name": "knowledge_base",
+    "path": "examples/11-grounding/python/knowledge_base.py"
+  },
+  {
+    "chapter": 11,
+    "source": "nova_part_4_chapters.md",
+    "section": "The managed shortcut: Bedrock Knowledge Bases",
+    "language": "csharp",
+    "name": "knowledge_base",
+    "path": "examples/11-grounding/csharp/knowledge_base/Program.cs"
+  },
+  {
+    "chapter": 12,
+    "source": "nova_part_4_chapters.md",
+    "section": "How you actually do it \u2014 the shape of the work",
+    "language": "jsonl",
+    "name": "training_concept",
+    "path": "examples/12-customisation/training_example.jsonl"
+  },
+  {
+    "chapter": 14,
+    "source": "nova_part_4_chapters.md",
+    "section": "Building a simple evaluation set",
+    "language": "python",
+    "name": "evaluate",
+    "path": "examples/14-evaluation-safety/python/evaluate.py"
+  }
+]

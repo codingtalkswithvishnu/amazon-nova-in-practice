@@ -1,0 +1,13 @@
+Classify each patient message as one of: routine, soon, urgent.
+
+Example 1:
+Message: "I'd like to book my annual check-up sometime next month."
+Classification: routine
+
+Example 2:
+Message: "I've had crushing chest pain for the last hour and my left arm feels numb."
+Classification: urgent
+
+Now classify this message:
+Message: "My cough has got worse and I'm a bit short of breath since yesterday."
+Classification:
