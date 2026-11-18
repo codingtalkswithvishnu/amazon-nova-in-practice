@@ -99,6 +99,7 @@ Keep credentials out of the repository.
 | 14 | [14-evaluation-safety](examples/14-evaluation-safety/README.md) | Evaluation and guardrail contracts |
 | 15 | [15-assistant-design](examples/15-assistant-design/README.md) | Offline assistant state transitions |
 | 16 | [16-industry-patterns](examples/16-industry-patterns/README.md) | Measurable industry pilot brief |
+| 17 | [17-official-guidance](examples/17-official-guidance/README.md) | Official-source model-use review card |
 
 ## Example boundaries and model status
 
